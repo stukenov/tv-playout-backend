@@ -1,6 +1,16 @@
 # TV Playout Backend
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
+[![Laravel 11](https://img.shields.io/badge/Laravel-11-FF2D20?logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP 8.2+](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php&logoColor=white)](https://www.php.net)
+[![Filament 3](https://img.shields.io/badge/Filament-3-FDAE4B?logo=laravel&logoColor=white)](https://filamentphp.com)
+[![Livewire 3](https://img.shields.io/badge/Livewire-3-FB70A9)](https://livewire.laravel.com)
+
+> **TV channel playout API — schedule management, playlist automation, and broadcast control built with Laravel.**
+
 A comprehensive TV broadcast playout automation system built with Laravel, Filament, and Livewire. This system provides channel management, content scheduling, live streaming, distribution management, and automated playout capabilities for television broadcasting operations.
+
+It powers the scheduling and broadcast-control backend behind a full TV playout suite — pair it with the [**tv-playout-frontend**](https://github.com/stukenov/tv-playout-frontend) dashboard for the operator UI (see [Related projects](#related-projects)).
 
 ## Features
 
@@ -127,6 +137,14 @@ The system provides API endpoints for external integrations. Use Laravel Sanctum
 - Node.js 18+
 - MySQL 8.0+ or PostgreSQL 13+
 - FFmpeg (for media processing)
+
+## Related projects
+
+This backend is one piece of a larger broadcast suite. It pairs with a dedicated dashboard UI and works alongside the streaming and playout-core components:
+
+- **[tv-playout-frontend](https://github.com/stukenov/tv-playout-frontend)** — the operator dashboard UI for managing channels, schedules, and playout from a browser.
+- **[live-streaming-server](https://github.com/stukenov/live-streaming-server)** — live ingest and streaming server for the broadcast pipeline.
+- **[fast-tv-playout-core](https://github.com/stukenov/fast-tv-playout-core)** — the low-level playout core that drives frame-accurate broadcast output.
 
 ## License
 
