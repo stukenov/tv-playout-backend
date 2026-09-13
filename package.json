@@ -8,11 +8,11 @@
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.11",
         "@tailwindcss/typography": "^0.5.20",
-        "autoprefixer": "^10.5.4",
-        "laravel-vite-plugin": "^3.1",
-        "postcss": "^8.5.20",
-        "postcss-nesting": "^14.0.0",
+        "autoprefixer": "^10.5.5",
+        "laravel-vite-plugin": "^3.2",
+        "postcss": "^8.5.28",
+        "postcss-nesting": "^14.0.1",
         "tailwindcss": "^4.3.3",
-        "vite": "^8.1"
+        "vite": "^8.3"
     }
 }
